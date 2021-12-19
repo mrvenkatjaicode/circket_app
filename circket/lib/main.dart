@@ -1,4 +1,5 @@
-import 'second.dart';
+import 'package:circket/homepage.dart';
+
 import 'package:flutter/material.dart';
 
 void main() {
@@ -14,7 +15,7 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       theme: ThemeData(appBarTheme: AppBarTheme(color: Colors.blue[700])),
       home: Scaffold(
-        body: SecondPage(),
+        body: HomePage(),
       ),
     );
   }
